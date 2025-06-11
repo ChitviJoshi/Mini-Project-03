@@ -18,25 +18,39 @@
 ---
 ### **Methodology**
 ---
--       Start
-        ↓
-   Input the Set
-        ↓
-Generate all size-5 combinations
-        ↓
-   For each combination:
-        ↓
-    Is sum == 0?
-     ↙       ↘
-   Yes         No
-   ↓            ↓
-Store combo    Skip
-        ↓
-  Repeat until done
-        ↓
-   Display Result
-        ↓
-       End
+        ┌────────────┐
+        │   Start    │
+        └────┬───────┘
+             ↓
+    ┌──────────────────┐
+    │ Input the Set     │
+    └────────┬─────────┘
+             ↓
+┌─────────────────────────────┐
+│ Generate all size-5 subsets │
+└────────────┬────────────────┘
+             ↓
+ ┌────────────────────────┐
+ │  For each combination: │
+ └────────┬───────────────┘
+          ↓
+  ┌─────────────────┐
+  │ Is sum == zero? │
+  └──────┬──────────┘
+         ↓Yes       ↓No
+   ┌──────────┐   ┌──────┐
+   │  Store   │   │ Skip │
+   └────┬─────┘   └──┬───┘
+        ↓           ↓
+     Repeat all combinations
+             ↓
+   ┌──────────────────┐
+   │ Display results  │
+   └────────┬─────────┘
+            ↓
+        ┌────────┐
+        │  End   │
+        └────────┘
 
 
 
