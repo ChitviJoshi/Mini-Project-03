@@ -18,39 +18,7 @@
 ---
 ### **Methodology**
 ---
-        ┌────────────┐
-        │   Start    │
-        └────┬───────┘
-             ↓
-    ┌──────────────────┐
-    │ Input the Set     │
-    └────────┬─────────┘
-             ↓
-┌─────────────────────────────┐
-│ Generate all size-5 subsets │
-└────────────┬────────────────┘
-             ↓
- ┌────────────────────────┐
- │  For each combination: │
- └────────┬───────────────┘
-          ↓
-  ┌─────────────────┐
-  │ Is sum == zero? │
-  └──────┬──────────┘
-         ↓Yes       ↓No
-   ┌──────────┐   ┌──────┐
-   │  Store   │   │ Skip │
-   └────┬─────┘   └──┬───┘
-        ↓           ↓
-     Repeat all combinations
-             ↓
-   ┌──────────────────┐
-   │ Display results  │
-   └────────┬─────────┘
-            ↓
-        ┌────────┐
-        │  End   │
-        └────────┘
-
-
-
+- Problem Statement 1.
+![t1](https://github.com/user-attachments/assets/20078220-439b-493f-99cf-21da626940b9)
+- Problem Statement 2.
+![t3](https://github.com/user-attachments/assets/80f360fe-cc37-4eb2-950c-940c6644de19)
